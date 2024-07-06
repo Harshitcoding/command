@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 
 interface SearchProps {
-  onSearch: (query: string) => never;
+  onSearch: (query: string) => void;
 }
 
 function Search({ onSearch }: SearchProps) {
