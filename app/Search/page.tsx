@@ -1,13 +1,8 @@
-// Search.tsx
 'use client';
 
 import React, { useState } from 'react';
 
-interface SearchProps {
-  onSearch: (query: string) => void;
-}
-
-function Search({ onSearch }: SearchProps) {
+function Search({ onSearch } : any) {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = () => {
